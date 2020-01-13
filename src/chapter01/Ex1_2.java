@@ -1,5 +1,5 @@
 /*
- * (Display five messages) Write a program that displays I love Java five times.
+(Display five messages) Write a program that displays I love Java five times.
  */
 package chapter01;
 
