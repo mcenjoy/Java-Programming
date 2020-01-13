@@ -7,7 +7,7 @@
  */
 package chapter01;
 
-public class Ex1_8 {
+public class Ex1_08 {
     public static void main(String[] args) {
         System.out.println("The area of a circle that has a radius of 6.5 is " + 6.5 * 6.5 * 3.14159);
         System.out.println("The perimeter of a circle that has a radius of 6.5 is " + 2 * 6.5 * 3.14159);

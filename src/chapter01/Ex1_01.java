@@ -4,7 +4,7 @@
  */
 package chapter01;
 
-public class Ex1_1 {
+public class Ex1_01 {
     public static void main(String[] args) {
         System.out.println("Welcome to Java");
         System.out.println("Learning Java Now");
