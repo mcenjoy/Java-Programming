@@ -15,10 +15,10 @@ package chapter01;
 
 public class Ex1_11 {
     public static void main(String[] args) {
-        int secondsInYear = 365 * 24 * 60 * 60;
+        final int secondsInYear = 365 * 24 * 60 * 60;
         double birthNumberInYear = secondsInYear / 7.0;
         double deathNumberInYear = secondsInYear / 13.0;
-        double immigrantNumberInYear = secondsInYear / 45;
+        double immigrantNumberInYear = secondsInYear / 45.0;
         double population = 312032486;
 
         population = population + birthNumberInYear - deathNumberInYear + immigrantNumberInYear;
@@ -35,7 +35,6 @@ public class Ex1_11 {
 
         population = population + birthNumberInYear - deathNumberInYear + immigrantNumberInYear;
         System.out.println("Year #5 Population: " + (int) population);
-
 
     }
 }

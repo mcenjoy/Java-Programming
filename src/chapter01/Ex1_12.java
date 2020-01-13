@@ -7,6 +7,6 @@ package chapter01;
 
 public class Ex1_12 {
     public static void main(String[] args) {
-        System.out.println("The average speed is " + (24 * 1.6 / (1 + 40.0 / 60 + 35.0 / 60 / 60)) + " km/h");
+        System.out.printf("The average speed is %s km/h%n", 24 * 1.6 / (1 + 40.0 / 60 + 35.0 / 60 / 60));
     }
 }
