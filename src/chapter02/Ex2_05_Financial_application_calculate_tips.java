@@ -21,7 +21,6 @@ public class Ex2_05_Financial_application_calculate_tips {
         double gratuityRate = input.nextDouble() / 100.0;
         double gratuity = subtotal * gratuityRate;
         double total = subtotal + gratuity;
-        System.out.println("The gratuity is " + currencyFormatter.format(gratuity) +
-                " and total is " + currencyFormatter.format(total));
+        System.out.printf("The gratuity is %s and total is %s%n", currencyFormatter.format(gratuity), currencyFormatter.format(total));
     }
 }
