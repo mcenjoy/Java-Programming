@@ -1,3 +1,7 @@
+/*
+(Convert meters into feet) Write a program that reads a number in meters, converts
+it to feet, and displays the result. One meter is 3.2786 feet.
+ */
 package chapter02;
 
 import java.util.Scanner;
