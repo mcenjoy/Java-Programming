@@ -14,6 +14,9 @@ public class Ex2_05_Financial_application_calculate_tips {
     public static void main(String[] args) {
         NumberFormat currencyFormatter =
                 NumberFormat.getCurrencyInstance(Locale.getDefault());
+/*        NumberFormat nf = NumberFormat.getInstance(Locale.US);
+        nf.setMaximumFractionDigits(2);
+        System.out.println(nf.format(5.2555));*/
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the subtotal: ");
         double subtotal = input.nextDouble();
